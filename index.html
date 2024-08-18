@@ -19,8 +19,8 @@
         }
     </style>
 </head>
-<body class="w-4/5 mx-auto manrope">
-    <header class="md:flex md:justify-between md:items-center">
+<body class="manrope">
+    <header class=" w-4/5 mx-auto md:flex md:justify-between md:items-center">
         <div class="flex flex-col gap-4 mt-10">
             <h3 class="text-black text-[40px] font-extrabold leading-[50px] md:text-[60px] md:leading-[100px]">
                 It's good<br>
@@ -63,7 +63,7 @@
     </header>
     <main>
         <!-- great tea -->
-        <section class="mt-[80px] md:flex md:flex-row-reverse md:justify-between md:items-center">
+        <section class="w-4/5 mx-auto mt-[80px] md:flex md:flex-row-reverse md:justify-between md:items-center">
             <!-- text -->
             <div class="flex flex-col gap-3 md:w-[45%]">
                 <h3 class="font-extrabold text-4xl">Great Tea, Freshly Presented</h3>
@@ -76,22 +76,76 @@
             <!-- color grid -->
             <div class="mt-[50px] grid gap-4 grid-cols-2 grid-rows-3 md:w-[45%] md:mt-0">
                 <!-- 1 -->
-                <div class="bg-pink-300 h-[136px] w-auto  rounded-lg md:h-[160px]"></div>
+                <div class="bg-pink-200 h-[136px] w-auto  rounded-lg md:h-[160px]"></div>
                 <!-- 2 long ylw -->
-                <div class="bg-pink-300 rounded-lg w-auto h-auto row-span-2 p-2 md:pl-6">
+                <div class="bg-pink-200 rounded-lg w-auto h-auto row-span-2 p-2 md:pl-6">
                     <img class="mt-5" src="./images/fresh-1.png" alt="">
                 </div>
                 <!-- 3 long orng -->
-                <div class="bg-lime-300 rounded-lg w-auto   h-auto row-span-2 p-5 md:pl-10">
+                <div class="bg-lime-200 rounded-lg w-auto   h-auto row-span-2 p-5 md:pl-10">
                     <img class="mt-4" src="./images/fresh-2.png" alt="">
                 </div>
                 <!-- 4 -->
-                <div class="bg-lime-300 h-[136px] w-auto  rounded-lg md:h-[160px]"></div>
+                <div class="bg-lime-200 h-[136px] w-auto  rounded-lg md:h-[160px]"></div>
             </div>
          </section>
     </main>
-    <footer>
-
+    <footer class="bg-gradient-to-r from-[#ff00001c] to-[#ff883836] ... mt-[80px]">
+        <!-- footer equipments -->
+         <div class="w-4/5 mx-auto">
+            <!-- footer nav -->
+             <div class="py-10 flex flex-col gap-6 items-center md:flex-row md:justify-between">
+                <div>
+                    <img src="./images/cup.png" alt="">
+                </div>
+                <div class="flex flex-col text-center gap-4 md:flex-row md:items-center">
+                    <p class="font-medium text-gray-600 text-[12px]">Ready to get strated?</p>
+                    <button class="font-extrabold text-white text-base bg-gradient-to-r from-orange-500 to-red-500 ... p-3 rounded-xl w-40">Get Started</button>
+                </div>
+             </div>
+             <!-- footer contacts -->
+              <div class="flex flex-col gap-4 pb-10 md:flex-row md:gap-0 md:justify-between">
+                <!-- links  -->
+                    <div class="flex flex-col gap-3">
+                        <h5 class="text-xl font-bold">Quick Links</h5>
+                        <p class=" text-gray-600 text-[12px]">Home</p>
+                        <p class=" text-gray-600 text-[12px]">Insurance</p>
+                        <p class=" text-gray-600 text-[12px]">About Us</p>
+                        <p class=" text-gray-600 text-[12px]">Privacy Policy</p>
+                    </div>
+                <!-- service -->
+                    <div class="flex flex-col gap-3">
+                        <h5 class="text-xl font-bold">Our Service</h5>
+                        <p class=" text-gray-600 text-[12px]">Life Insurance</p>
+                        <p class=" text-gray-600 text-[12px]">Car Insurance</p>
+                        <p class=" text-gray-600 text-[12px]">Health Insurance</p>
+                        <p class=" text-gray-600 text-[12px]">House Insurance</p>
+                    </div>
+                <!-- help -->
+                    <div class="flex flex-col gap-3">
+                        <h5 class="text-xl font-bold">Help</h5>
+                        <p class=" text-gray-600 text-[12px]">FAQs</p>
+                        <p class=" text-gray-600 text-[12px]">Contact Us</p>
+                    </div>
+                <!-- subscribe -->
+                    <div class="flex flex-col gap-4">
+                        <h5 class="text-2xl font-bold">Subscribe to our<br>newsletter</h5>
+                        <!-- email -->
+                        <div class="flex items-center justify-between border border-b-3 border-gray-500 border-t-0 border-e-0 border-s-0 pb-2">
+                            <p class=" text-gray-800 text-[12px]">Email Address</p>
+                            <button class="font-extrabold text-white bg-gradient-to-r from-orange-500 to-red-500 ... w-10 rounded-full py-2"> <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                        <!-- icons -->
+                        <div class="flex gap-8">
+                            <i class="fa-brands fa-facebook text-2xl"></i>
+                            <i class="fa-brands fa-square-instagram text-2xl"></i>
+                            <i class="fa-brands fa-square-x-twitter text-2xl"></i>
+                        </div>
+                    </div>
+              </div>
+              <div class="text-center pb-10"><p class="text-gray-500">© 2027 UIDesign.to - All rights reserved.</p>
+            </div>
+         </div>
     </footer>
 </body>
 </html>
